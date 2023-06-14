@@ -1,0 +1,105 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(250, 235, 162);
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.meus-trabalhos {
+  font-size: 60px;
+  margin-top: 140px;
+  text-align: center;
+}
+
+.espaco {
+  height: 100px;
+}
+
+.trabalhos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.trabalho {
+  width: 100%;
+  height: 1300px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.trabalho h3 {
+  font-size: 35px;
+}
+
+.trabalho img {
+  width: 35%;
+  max-height: 1050px;
+  object-fit: cover;
+}
+
+.trabalho-duplo img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+header {
+  color: #fff;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+  background-color: rgb(249, 226, 119);
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  background-color: rgb(249, 226, 119);
+  padding-left: 35px;
+}
+
+nav li {
+  display: inline;
+  margin-right: 80px;
+  background-color: rgb(249, 226, 119);
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+.trabalho p {
+  margin-top: 50px;
+  font-size: 24px;
+  padding: 20px;
+}
+
+.trabalho a {
+  font-size: 26px;
+}
+
+.trabalho:nth-last-child(2),
+.trabalho:nth-last-child(1) {
+  height: 950px;
+}
